@@ -24,8 +24,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6261175787222129641}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6680328511419547018}
   m_Father: {fileID: 0}
@@ -38,15 +39,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8607061579444849359}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 97e1332091365d94288b130d8ef25400,
+    - target: {fileID: -4216859302048453862, guid: 97e1332091365d94288b130d8ef25400,
         type: 3}
-      propertyPath: m_Name
-      value: WaterTower
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 97e1332091365d94288b130d8ef25400,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 97e1332091365d94288b130d8ef25400,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 97e1332091365d94288b130d8ef25400,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 97e1332091365d94288b130d8ef25400,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.62
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 97e1332091365d94288b130d8ef25400,
         type: 3}
@@ -56,37 +72,32 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 97e1332091365d94288b130d8ef25400,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.62
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 97e1332091365d94288b130d8ef25400,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.49991274
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 97e1332091365d94288b130d8ef25400,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.50008726
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 97e1332091365d94288b130d8ef25400,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.49991274
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 97e1332091365d94288b130d8ef25400,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.50008726
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 97e1332091365d94288b130d8ef25400,
-        type: 3}
-      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 97e1332091365d94288b130d8ef25400,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 97e1332091365d94288b130d8ef25400,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 97e1332091365d94288b130d8ef25400,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 97e1332091365d94288b130d8ef25400,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 97e1332091365d94288b130d8ef25400,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -89.98
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 97e1332091365d94288b130d8ef25400,
         type: 3}
@@ -97,6 +108,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 97e1332091365d94288b130d8ef25400,
+        type: 3}
+      propertyPath: m_Name
+      value: WaterTower
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97e1332091365d94288b130d8ef25400, type: 3}
